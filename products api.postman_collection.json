@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "6330bcb8-40ba-4852-b9fa-1fc61d4b1718",
+		"name": "products api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41537010"
+	},
+	"item": [
+		{
+			"name": "https://oegejq-8080.bytexl.dev/api/products",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Wireless Mouse\",\r\n  \"description\": \"Ergonomic wireless mouse with USB receiver\",\r\n  \"price\": 29.99,\r\n  \"quantity\": 100,\r\n  \"category\": \"Electronics\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://oegejq-8080.bytexl.dev/api/products",
+					"protocol": "https",
+					"host": [
+						"oegejq-8080",
+						"bytexl",
+						"dev"
+					],
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://oegejq-8080.bytexl.dev/api/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Wireless Mouse\",\r\n  \"description\": \"Ergonomic wireless mouse with USB receiver\",\r\n  \"price\": 29.99,\r\n  \"quantity\": 100,\r\n  \"category\": \"Electronics\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://oegejq-8080.bytexl.dev/api/products",
+					"protocol": "https",
+					"host": [
+						"oegejq-8080",
+						"bytexl",
+						"dev"
+					],
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://oegejq-8080.bytexl.dev/api/products/67d05244e854b62aa1869b01",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Wireless Keyboard\",\r\n  \"description\": \"Ergonomic wireless Keyboard with USB receiver\",\r\n  \"price\": 29.99,\r\n  \"quantity\": 100,\r\n  \"category\": \"Electronics\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://oegejq-8080.bytexl.dev/api/products/67d05244e854b62aa1869b01",
+					"protocol": "https",
+					"host": [
+						"oegejq-8080",
+						"bytexl",
+						"dev"
+					],
+					"path": [
+						"api",
+						"products",
+						"67d05244e854b62aa1869b01"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://oegejq-8080.bytexl.dev/api/products/67cfe4b548038d6fd257b625",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Wireless Keyboard\",\r\n  \"description\": \"Ergonomic wireless Keyboard with USB receiver\",\r\n  \"price\": 29.99,\r\n  \"quantity\": 100,\r\n  \"category\": \"Electronics\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://oegejq-8080.bytexl.dev/api/products/67cfe4b548038d6fd257b625",
+					"protocol": "https",
+					"host": [
+						"oegejq-8080",
+						"bytexl",
+						"dev"
+					],
+					"path": [
+						"api",
+						"products",
+						"67cfe4b548038d6fd257b625"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://oegejq-8080.bytexl.dev/api/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Wireless Keyboard\",\r\n  \"description\": \"Ergonomic wireless Keyboard with USB receiver\",\r\n  \"price\": 29.99,\r\n  \"quantity\": 100,\r\n  \"category\": \"Electronics\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://oegejq-8080.bytexl.dev/api/products",
+					"protocol": "https",
+					"host": [
+						"oegejq-8080",
+						"bytexl",
+						"dev"
+					],
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
